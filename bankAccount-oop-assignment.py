@@ -21,11 +21,11 @@ class BankAccount:
     def withdraw(self, amount):
         if amount < self.balance:
             self.balance = self.balance - amount
-            print(f"Account {self.acct_no} withdraw amount: ${amount}")
+            print(f"Account {self.acct_no} Withdrawal amount: ${amount}")
             return self
         else:
             print(f"You tried to withdraw ${amount} when your balance was ${self.balance} = Insufficient funds: Charging a $5 fee.")
-            self.balance - 5.0
+            self.balance = self.balance - 5.0
             return self
 
     def display_account_info(self):
