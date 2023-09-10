@@ -39,7 +39,6 @@ class BankAccount:
             return self
         else:
             print(f"no increase possible")
-        # while current balance is > 0: current balance * interest rate
 
     # NINJA BONUS: write a classmethod to print all instances of a Bank Account's info:
     @classmethod
